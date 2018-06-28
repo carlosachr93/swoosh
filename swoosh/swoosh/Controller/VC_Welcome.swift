@@ -22,6 +22,8 @@ class VC_Welcome: UIViewController {
     @IBAction func regresarView(vista: UIStoryboardSegue){
         
     }
+    
+    
 
 
 }
