@@ -16,12 +16,11 @@ class VC_League: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func btnNextPressed(_ sender: Any) {
+        performSegue(withIdentifier: "Segue_VC_Iam", sender: self)
     }
     
-
     /*
     // MARK: - Navigation
 
